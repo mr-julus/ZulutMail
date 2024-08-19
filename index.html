@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ZulutMail</title>
+    <link rel="shortcut icon" href="https://mr-julus.web.app/src/img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="/"><img src="https://mr-julus.web.app/src/img/logo.png" alt="SpaceX Logo" class="logo"></a>
+        </div>
+    </div>
+
+    <h1 id="usermail">You are logged in with the email:</h1>
+    <h1>Your Mails:</h1>
+    <div id="emailMessages"></div>
+
+    <!-- Popup pour afficher les détails de l'email -->
+    <div id="emailPopup">
+        <div id="popupContent">
+            <span id="closePopup">&times;</span>
+            <h2 id="emailSubject">Subject</h2>
+            <p><strong>From:</strong> <span id="emailFrom"></span></p>
+            <p><strong>Date:</strong> <span id="emailDate"></span></p>
+            <div id="emailBody"></div>
+        </div>
+    </div>
+
+    <button id="logoutButton">Sign out</button>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

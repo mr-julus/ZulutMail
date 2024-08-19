@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ZulutMail, Login</title>
+    <link rel="shortcut icon" href="https://mr-julus.web.app/src/img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <form id="loginForm">
+        <h1>Login Form</h1>
+        <input type="text" id="email" placeholder="Email..." required>
+        <input type="password" id="password" placeholder="Password..." required>
+        <button type="submit">Login</button>
+        <button onclick="window.location.href = '/auth/register'">You don't have any account ? Create one</button>
+    </form>
+
+    <script type="module" src="/src/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ZulutMail, Register</title>
+    <link rel="shortcut icon" href="https://mr-julus.web.app/src/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <form id="signupForm">
+        <h1>Register Form</h1>
+        <input type="text" id="username" placeholder="Username..." required>
+        <div class="input-group">
+            <input type="text" id="email" placeholder="Email..." required>
+            <select id="domain">
+                <option value="wwjmp.com">@wwjmp.com</option>
+                <option value="esiix.com">@esiix.com</option>
+                <option value="xojxe.com">@xojxe.com</option>
+                <option value="yoggm.com">@yoggm.com</option>
+                <option value="1secmail.com">@1secmail.com</option>
+                <option value="1secmail.org">@1secmail.org</option>
+                <option value="1secmail.net">@1secmail.net</option>
+            </select>
+        </div>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Sign in</button>
+        <button type="button" onclick="window.location.href = '/auth/login'">You have already an account? Login</button>
+    </form>
+
+    <script type="module" src="/src/register.js"></script>
+</body>
+
+</html>
